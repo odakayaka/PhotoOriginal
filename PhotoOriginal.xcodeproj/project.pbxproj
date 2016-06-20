@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					67E47F141D0BFC8B005CB7FE = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ANA9J8UB49;
 					};
 					67E47F281D0BFC8B005CB7FE = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -399,10 +400,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PhotoOriginal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odakaayaka.PhotoOriginal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PhotoOriginal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odakaayaka.PhotoOriginal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +489,7 @@
 				67E47F3F1D0BFC8B005CB7FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67E47F401D0BFC8B005CB7FE /* Build configuration list for PBXNativeTarget "PhotoOriginalTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +498,7 @@
 				67E47F421D0BFC8B005CB7FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67E47F431D0BFC8B005CB7FE /* Build configuration list for PBXNativeTarget "PhotoOriginalUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				67E47F451D0BFC8B005CB7FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
